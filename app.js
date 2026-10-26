@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     if (req.url === '/') {
         res.end('<h1>Página Inicial</h1><p>Bem-vindo ao projeto de Cloud<br>Segundo Projeto – Disciplina de Desenvolvimento de Software em Nuvem<br>Professor Américo Sampaio.</p>');
     } else if (req.url === '/sobre') {
-        res.end('<h1>Sobre a Equipa</h1><p>Projeto de Desenvolvimento de Software em Nuvem.<br>Mário Eduardo Marques - 2316157<br>José Arthur Leite - 2315760</p>');
+        res.end('<h1>Sobre a Equipa</h1><p>Projeto de Desenvolvimento de Software em Nuvem.<br>Mário Eduardo Marques - 2316157<br>José Arthur Leite - 2315760<br>alunos unifor oitavo semestre</p>');
     } else if (req.url === '/contacto') {
         res.end('<h1>Contacto</h1><p>Página de contacto da equipa.<br>jose.arthur@edu.unifor.br<br>marioedumarq1098@edu.unifor.br</p>');
     }else {
